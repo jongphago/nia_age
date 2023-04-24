@@ -1,0 +1,1 @@
+posix.uname_result(sysname='Linux', nodename='785322ff9d6f', release='5.4.0-87-generic', version='#98~18.04.1-Ubuntu SMP Wed Sep 22 10:45:04 UTC 2021', machine='x86_64')

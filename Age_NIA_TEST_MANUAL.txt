@@ -1,0 +1,17 @@
+* source 코드 다운로드
+1. source code(Docker/nia_age)와 평가용 데이터셋을 다운로드 받는다.
+2. 평가용 데이터셋의 nia_cropped.zip을 nia_age 폴더에 복사하고 압축을 푼다.
+3. cmd상에서 nia_age에 들어간다.
+4. docker build . -t age_img
+
+* source 코드 다운로드 및 실행 (테스트만 수행)
+1. docker run --gpus 0 --rm -ti -v $(pwd):/workspace age_img
+2. cd workspace
+3. python3 perform_5-fold_test.py
+4. 테스트 결과는 result_model 폴더에 저장되며, 1_env_logs 폴더에 시험환경 로그, 2_result.csv에 시험결과 로그가 각각 저장됨
+
+* source 코드 다운로드 및 실행 (학습 및 테스트 수행)
+1. docker run --gpus 0 --rm -ti -v $(pwd):/workspace age_img
+2. cd workspace
+3. python3 perform_5-fold_test.py --train
+4. 테스트 결과는 result_model 폴더에 저장되며, 1_env_logs 폴더에 시험환경 로그, 2_result.csv에 시험결과 로그가 각각 저장됨

@@ -1,0 +1,4 @@
+| ID | Name      | Serial        | UUID                                     || GPU temp. | GPU util. | Memory util. || Memory total | Memory used | Memory free || Display mode | Display active |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  0 | TITAN RTX | 1324819032528 | GPU-2c9ea666-cb06-791b-7b2a-1239137ace10 ||       70C |        0% |           0% ||      24217MB |        19MB |     24198MB || Disabled     | Disabled       |
+|  1 | TITAN RTX | 1324819033759 | GPU-99e44259-6041-9cf4-da17-41a4e6c50a01 ||       34C |        0% |           0% ||      24220MB |         5MB |     24215MB || Disabled     | Disabled       |

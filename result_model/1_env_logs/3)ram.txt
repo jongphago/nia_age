@@ -1,0 +1,10 @@
+======================================== Memory Information ========================================
+Total: 62.75GB
+Available: 60.96GB
+Used: 1.08GB
+Percentage: 2.8%
+==================== SWAP ====================
+Total: 2.00GB
+Free: 1.96GB
+Used: 37.25MB
+Percentage: 1.8%

@@ -1,0 +1,116 @@
+======================================== Disk Information ========================================
+Partitions and Usage:
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /workspace
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /etc/resolv.conf
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /etc/hostname
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /etc/hosts
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/bin/nvidia-smi
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/bin/nvidia-debugdump
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/bin/nvidia-persistenced
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/bin/nvidia-cuda-mps-control
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/bin/nvidia-cuda-mps-server
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.460.67
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/lib/x86_64-linux-gnu/libnvidia-cfg.so.460.67
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/lib/x86_64-linux-gnu/libcuda.so.460.67
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.460.67
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.460.67
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/lib/x86_64-linux-gnu/libnvidia-allocator.so.460.67
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+=== Device: /dev/nvme0n1p2 ===
+  Mountpoint: /usr/lib/x86_64-linux-gnu/libnvidia-compiler.so.460.67
+  File system type: ext4
+  Total Size: 1.79TB
+  Used: 1.49TB
+  Free: 210.36GB
+  Percentage: 87.9%
+Total read: 1.14TB
+Total write: 390.72GB

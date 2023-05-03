@@ -98,6 +98,7 @@ class NiaDataset(Dataset):
         img_path = datum["img_path"]
         img = np.array(Image.open(img_path).convert("RGB"))
         files = os.path.basename(img_path)
+        infos = files.split("_")
         if datum["age"] is None:
             data_type = "age"
             age = int(self.RANGE_TO_MEDIAN[datum["age_class"]])
@@ -116,6 +117,8 @@ class NiaDataset(Dataset):
             "age_class": age_class,
             "file": files,
             "data_type": data_type,
+            "family_id": infos[0],
+            "personal_id": f"{infos[0]}-{infos[2]}",
         }
         return sample
 

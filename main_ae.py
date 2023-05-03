@@ -50,6 +50,34 @@ class AgeModel(nn.Module):
         return age_pred, age_group_pred
 
 
+class Embedding(nn.Module):
+    def __init__(self):
+        super(Embedding, self).__init__()
+        self.backbone = resnet18(pretrained=True)
+        self.backbone.fc = nn.Sequential(nn.BatchNorm1d(512), nn.Dropout(0.5))
+
+    def forward(self, x):
+        return self.backbone(x)
+
+
+class AgeClassifier(nn.Module):
+    def __init__(self, num_ages, num_age_groups):
+        super(AgeClassifier, self).__init__()
+        self.age_classifier = nn.Linear(512, num_ages)
+        self.age_group_classifier = nn.Sequential(
+            nn.Linear(512, 256),
+            nn.ReLU(),
+            nn.BatchNorm1d(256),
+            nn.Dropout(0.5),
+            nn.Linear(256, num_age_groups),
+        )
+
+    def forward(self, x):
+        age_pred = self.age_classifier(x)
+        age_group_pred = self.age_group_classifier(x)
+        return age_pred, age_group_pred
+
+
 def train(
     train_loader, model, criterion1, criterion2, optimizer, epoch, result_directory
 ):

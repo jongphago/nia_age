@@ -1,7 +1,8 @@
 models/retinaface_r50_v1/retinaface_r50_v1-0000.params
-dataset/MNIST
+data/MNIST/raw
 __pycache__
-data
 nia_cropped
-result/log
+log
 all_meta.npy
+dataset/MNIST
+data

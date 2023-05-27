@@ -12,8 +12,8 @@ from torch.optim import lr_scheduler
 from torch.utils.data import DataLoader
 from torchvision.models.resnet import resnet18
 
-from data import NiaDataset
-from mean_variance_loss import MeanVarianceLoss
+from nia_age.data import NiaDataset
+from nia_age.mean_variance_loss import MeanVarianceLoss
 
 LAMBDA_1 = 0.2
 LAMBDA_2 = 0.05
